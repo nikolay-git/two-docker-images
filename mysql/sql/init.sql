@@ -1,4 +1,5 @@
 CREATE DATABASE docker_info;
+grant all on *.* to 'root'@'%' identified by '12345' with grant option;
 
 USE docker_info;
 
